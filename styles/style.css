@@ -1,0 +1,128 @@
+body{
+    background-color: antiquewhite;
+}
+
+#div1{
+    display: flex;
+    justify-content: center;
+}
+
+#div2{
+    display: flex;
+    justify-content: right;
+    
+}
+
+#divul{
+    display: flex;
+    justify-content: center;
+}
+
+#divol{
+    display: flex;
+    justify-content: center;
+}
+
+.p1{
+
+    background-color: black;
+    color: whitesmoke;
+    padding: 5px;
+    border: 10px solid rgb(0, 70, 0);
+    width: 50vw;
+    text-align: left;
+    display:flex;
+    justify-content: center;
+}
+
+.p2{
+    
+    background-color: red;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.paragraph{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    margin: 10px 15px 20px 25px;
+}
+
+#header1{
+    color: gold;
+    font-style: italic;
+}
+
+#unorderedlist{
+    background-color: darkseagreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+
+#orderedlist{
+    background-color:indianred;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: inherit;
+}
+
+#image-container img{
+    display: flex;
+    border: 10px solid black;
+    border-radius: 50%;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: beige;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: brown;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: rgb(245, 176, 78)
+  }
+
+.topnav a.active {
+    background-color: burlywood;
+    color: white;
+  }
+  
+.content{
+    padding: 16px;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content{
+    padding-top: 60px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 35%;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: left;
+    font-size: 50px;
+  }
+
+#cookies{
+    text-align: right;
+    background-color: darkred;
+}
