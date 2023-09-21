@@ -95,3 +95,8 @@ img{
     margin-right: auto;
     width: 50%;
 }
+
+#meg{
+    display: flex;
+    justify-content: start;
+}
