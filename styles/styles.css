@@ -77,6 +77,11 @@ body{
 }
 
 #om-meg{
+    display: block;
+    justify-content: right;
+}
+
+#om-meg-txt{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 10%;
@@ -89,7 +94,7 @@ body{
     padding-left: 12%;
 }
 
-img{
+#welcome-img{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -97,6 +102,8 @@ img{
 }
 
 #meg{
-    display: flex;
-    justify-content: start;
+    display: block;
+    justify-content: left;
+    margin-left: auto;
+    margin-right: auto;
 }
