@@ -108,3 +108,7 @@ body{
     justify-content: right;
     padding-left: 10%;
 }
+
+#microbit{
+    border-radius: 100px;
+}
