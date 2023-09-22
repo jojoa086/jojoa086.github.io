@@ -112,3 +112,9 @@ body{
 #microbit{
     border-radius: 100px;
 }
+
+.text{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
