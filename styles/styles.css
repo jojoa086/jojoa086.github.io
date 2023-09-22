@@ -122,11 +122,21 @@ body{
 #automasjon{
     display: flex;
     padding-top: 50px;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+#microbit{
+    display: flex;
+    padding-top: 50px;
+    grid-template-columns: 1fr 1fr;
 }
 
 #fotobryter{
     display: flex;
     padding-top: 50px;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.projtext{
+    padding-left: 5%;
 }
